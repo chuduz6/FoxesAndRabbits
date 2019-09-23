@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=randomAge\ field\ location
+comment0.target=Rabbit(boolean,\ Field,\ Location)
+comment0.text=\nCreate\ a\ new\ rabbit.\ A\ rabbit\ may\ be\ created\ with\ age\nzero\ (a\ new\ born)\ or\ with\ a\ random\ age.\n\n@param\ randomAge\ If\ true,\ the\ rabbit\ will\ have\ a\ random\ age.\n\n
+comment1.params=currentField\ updatedField\ newAnimals
+comment1.target=void\ act(Field,\ Field,\ List<Animal>)
+comment1.text=\nThis\ is\ what\ the\ rabbit\ does\ most\ of\ the\ time\ -\ it\ runs\ \naround.\ Sometimes\ it\ will\ breed\ or\ die\ of\ old\ age.\n@param\ currentField\ The\ field\ currently\ occupied.\n@param\ updatedField\ The\ field\ to\ transfer\ to.\n@param\ newAnimals\ A\ list\ to\ add\ newly\ born\ rabbits\ to.\n\n
+comment2.target=int\ getBreedingAge()
+comment3.target=int\ getMaxAge()
+comment4.target=double\ getBreedingProbability()
+comment5.target=int\ getMaxLitterSize()
+comment6.target=Animal\ birthAnimal()
+numComments=7
